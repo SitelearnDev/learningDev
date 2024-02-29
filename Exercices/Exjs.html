@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/LOGO/icones/dev-icon-16.icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices javascript </title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    
+</head>
+<body class="mydark">
+  
+<header  class="d-flex mydark align-items-center" style="justify-content: space-around; ">
+      <img src="/LOGO/LOGO 2/SITE EDUCATIF.gif" style="width: 100px; " class=" bg-dark logo " > 
+ 
+      <nav class="navbar navbar-expand-lg navbar-dark bg mydark rounded text-center">
+                <div class="container-fluid ">
+                  <a class="navbar-brand" href="/index.html">Home</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Cours
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="/cours/Cours Python.pdf">Python</a></li>
+                          <li><a class="dropdown-item" href="/cours/Cours JS.pdf">JavaScript</a></li>
+                          <li><a class="dropdown-item" href="/cours/Cours Bootstrap.pdf">Bootstrap</a></li>
+                          <li><a class="dropdown-item" href="/cours/Cours Base des donnes.pdf">Base des donnes</a></li>
+                          <li><a class="dropdown-item" href="/cours/Cours Algorithm.pdf">Algorithme</a></li>
+                          <li><a class="dropdown-item" href="/cours/Cours HTML_CSS.pdf">HTML_CSS</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Exercices
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="/Exercices/ExAlgo.html">Algorithme</a></li>
+                          <li><a class="dropdown-item" href="/Exercices/TP Bootsrtap.pdf">Bootstrap</a></li>
+                          <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                          <li><a class="dropdown-item" href="/Exercices/ExPython.html">Python</a></li>
+                          <li><a class="dropdown-item" href="/Exercices/ExBasedonnes.html">Base des donnes</a></li>
+                          <li><a class="dropdown-item" href="/Exercices/ExHTML_CSS.pdf">HTML_CSS</a></li>
+                         
+                          
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          EFMs
+                         </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          
+                          <li><a href="/EfM/Régional Tanger 2021 2022.pdf" class="dropdown-item"> - Efm Tanger 2021-2022</a></li>
+                          <li><a href="/EfM/EFM Casa 2021 2022.pdf" class="dropdown-item">- Efm Casa 2021-2022</a></li>
+                          <li><a href="/EfM/EFM Rabat Salé kenitra 2021 2022.pdf" class="dropdown-item">- Efm rabat Salé Kenitra 2021-2022</a></li>
+                          <li><a href="/EfM/EFM Rabat-sale -kénitra 2022 2023.pdf" class="dropdown-item">- Efm rabat Salé Kenitra 2021-2023</a></li>
+                          <li><a href="/EfM/EFM Casa Settat 2022 2023.pdf" class="dropdown-item">- Efm Casa Settat 2021-2023</a></li>
+                           
+                        </ul>
+                      </li>
+                     
+                      <li class="nav-item">
+                        <a class="nav-link " href="/index.html" tabindex="-1" >Contact</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+      
+    </header>   
+    <style>
+      .container {
+          padding: 20px;
+      }
+
+      .section-title {
+          margin-bottom: 10px;
+      }
+
+      .exercise-container {
+          margin-bottom: 20px;
+      }
+
+      .exercise-description {
+          margin-top: 10px;
+      }
+  </style>
+  <div class="container bg-light ">
+      <div>
+
+          <h1 class="text-center text-info bg-light section-title">Exercices JS</h1>
+          <h3 class="text-center text-light bg-dark section-title">Utiliser les instructions de base</h3>
+      </div>
+      <div class="row">
+          <div class="col-12 col-md-6 exercise-container border">
+              <h2>Exercice 1 :</h2>
+              <p> <h5>Instructions de base :</h5> <br>
+                Sachant que les allocations familiales d’un employé sont
+                  attribuées comme suit :<br><br>
+                  1. 200 dh pour chacun des trois premiers enfants.<br><br>
+                  2. 100 dh pour le quatrième et le cinquième.<br><br>
+                  3. 0 dh pour les autres Ecrire un script Javascript qui permet de calculer puis d’afficher les
+                  allocations familiales d’un employé selon le nombre d’enfants entré par l’utilisateur</p>
+              <!-- Ajoutez le code de l'exercice 1 ici -->
+          </div>
+
+          <div class="col-12 col-md-6 exercise-container border">
+              <h2>Exercice 2 :</h2>
+              <p> <h5>L'itération :</h5> Écrivez les fonctions suivantes : <br>
+                  1. factorial qui prend un nombre en entrée et retourne sa factorielle.<br>
+                  2. isAnagram qui vérifie si deux chaînes sont des anagrammes l'une de l'autre.<br>
+                  3. checkPalindrome qui vérifie si une chaîne de caractères est un palindrome.<br>
+                  4. generateFibonacci qui génère les n premiers termes de la séquence de Fibonacci. Sachant que
+                  la
+                  suite de Fibonacci est donnée comme suit :<br>
+                  Si F(n) représente le nième terme de la suite de Fibonacci, alors:<br>
+                  •
+                  F(0)=0<br>
+                  •
+                  F(1)=1<br>
+                  •
+                  F(n)=F(n−1)+F(n−2) pour n>1</p>
+              <!-- Ajoutez le code de l'exercice 2 ici -->
+          </div>
+          <div class="col-12 col-md-6 exercise-container border  ">
+              <h2>Exercice 3 :</h2>
+              <p><h5>Tableaux : </h5> Écrivez les fonctions suivantes : <br>
+                  1. sortArray qui trie un tableau d'entiers de manière ascendante.<br>
+                  2. findMissingNumber qui trouve le nombre manquant dans une séquence d'entiers consécutifs
+                  passée en paramètre.<br>
+                  3. rotateArray qui effectue une rotation à gauche sur un tableau donné d'un nombre spécifié de
+                  positions. Exemple d’exécution : rotateArray([1,2,3,4,5,6,7,8,9],3) => [4,5,6,7,8,9, 1,2,3]<br>
+                  4. avgArray qui renvoie la moyenne des valeurs du tableau passé en paramètre.<br>
+                  5. countUpToAvg qui revoie le nombre des valeurs supérieurs où égale à la moyenne des valeurs du
+                  tableau passé en paramètre.</p>
+              <!-- Ajoutez le code de l'exercice 3 ici -->
+          </div>
+
+          <div class="col-12 col-md-6 exercise-container border">
+              <h2>Exercice 4 :</h2>
+              <h5>Structure de choix :</h5><br>
+              <p>Écrivez les fonctions suivantes : <br>
+                1. isEmpty qui prend une chaine en paramètres est retourne s’il est vide ou non. <br>
+                2. findLargest qui prend trois nombres en paramètres et renvoie le plus grand des trois. <br>
+                3. isPrime qui prend un nombre en entrée et retourne vrai s'il s'agit d'un nombre premier, sinon faux.
+            </p>
+              <!-- Ajoutez le code de l'exercice 4 ici -->
+          </div>
+          <div class="container bg-light">
+              <div>
+                  <h3 class="text-center text-light bg-dark section-title">Manipuler les objets Javascript.</h3>
+              </div>
+              <div class="row">
+                  <div class="col-12  col-md-6 exercise-container border">
+                      <h2>Exercice 1:</h2>
+                      <p>Une ville a un nom, une population (nombre d’habitants) et appartient à un pays (chaine
+                          de caractère).<br><br>
+                          
+                          Ecrivez un programme javascript qui permet de :<br><br>
+                          
+                        1. définir la fonction ‘Ville’ de création d’un objet ville .<br><br>
+                          
+                        2. déclarer le tableau ‘villes’ qui contiendra des villes<br><br>
+                          
+                        3. utiliser la fonction remplirVilles() qui remplit le tableau ‘villes’ par les villes
+                          saisies par l’utilisateur.<br><br>
+                          
+                        4. utiliser la fonction populationGlobale(pays) qui calcule puis renvoie le nombre des
+                          habitants globale du pays passé en paramètre<br><br>
+                          
+                        5. utiliser la fonction getVillePlusPeuplée() qui renvoie la ville qui possède le maximum
+                          des habitants.<br>
+                          
+                        6. utiliser un menu de test des différentes fonctionnalités.</p>
+                      <!-- Ajoutez le code de l'exercice 5 ici -->
+                  </div>
+
+                  <div class="col-12 col-md-6 exercise-container border">
+                      <h2>Exercice 2:</h2>
+                      <p>A la fin de chaque session, un formateur pour évaluer le travail en classe ses
+                          stagiaires,donne à chacun d’entre eux une note composée de :<br>
+                          
+                          -
+                          assiduite : note de présence sur 5 points <br>
+                          -
+                          rendement : note de rendement sur 5 points<br>
+                          -
+                          participation : note de participation sur 5 points <br>
+                          -
+                          ordre : note d’ordre et discipline sur 5 points<br>
+                          Ecrivez un programme javascript qui permet de :<br>
+                          6.
+                          définir la fonction ‘NoteClasse’ de création d’un objet représentant les notes de classe
+                          en
+                          plus d’une méthode total() qui renvoie la somme ces notes.<br>
+                          7.
+                          déclarer le tableau ‘notesClasse’ qui contiendra les notes d’une classe de 25 stagiaires<br>
+                          8.
+                          utiliser la fonction remplirNotes() qui remplit le tableau ‘notesClasse’ par les notes
+                          saisies par l’utilisateur.<br>
+                          9.
+                          utiliser la fonction moyenne (type) qui calcule puis renvoie la moyenne des notes par
+                          type
+                          (‘a’ : assiduite, ‘r’ : rendement, ‘p’ : participation ou ‘o’ : ordre ) passé en
+                          paramètre<br>
+                          10.
+                          utiliser la fonction getMoyennePlusFaible() qui renvoie la moyenne la plus faible des 4
+                          types des notes.<br>
+                          11.
+                          utiliser un menu de test des différentes fonctionnalités. .</p>
+                      <!-- Ajoutez le code de l'exercice 4 ici -->
+                  </div>
+
+                  <div class="col-12 col-md-6 exercise-container border">
+                      <h2>Exercice 3 :</h2>
+                      <p>- Créer la fonction uniforme(nombre) qui détermine si un nombre est uniforme. Un nombre
+                          uniforme
+                          est un entier naturel formé par la répétition d’un seul chiffre. <br>
+                          Exemple :<br><br>
+                          o 5, 11, 444, 99999999 sont tous des nombres uniformes<br>
+                          o -3, 202, 3456, 88.88 ne sont pas des nombres uniformes<br><br>
+                          - Tester la fonction uniforme.</p>
+
+                      <!-- Ajoutez le code de l'exercice 4 ici -->
+                  </div>
+
+                  <div class="col-12 col-md-6 exercise-container border">
+                      <h2>Exercice 4:</h2><br>
+                      <p>Ecrire une fonction nbMots(text, taillemin) qui reçoit en paramètre un texte sous forme
+                          d’une
+                          suite de caractères
+                          terminée par un point ‘.’ et une taille de type numérique puis détermine et renvoie le
+                          nombre de mots ayant une
+                          longueur (taille) qui dépasse une valeur minimum fixée en deuxième paramètre.</p>
+                      <!-- Ajoutez le code de l'exercice 4 ici -->
+                  </div>
+              </div>
+              <div class="container bg-light">
+                  <div>
+                      <h3 class="text-center text-light bg-dark section-title border"> Une approche de manipulation des
+                          formulaires en JavaScript est d’utiliser les objets natifs forms et elements </h3>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-12 col-md-6 exercise-container border">
+                          <h2>Exercice 1 :</h2><br>
+                          <p>1. Ecrire le code JavaScript du bouton Initialiser qui permet de vider tous les
+                              champs et
+                              de mettre le curseur dans le champ Prix Hors taxe.<br>
+                              2. Ecrire le code JavaScript du bouton Calculer qui permet de calculer le Résultat
+                              sachant que Prix TTC = Prix HT * (1 + taux TVA/100) :<br>
+                              • Prix HT et Taux TVA doivent être remplie.<br>
+                              • Pour le champ invalide :<br>
+                              - Positionner le curseur dans ce champ.<br>
+                              - La bordure doit être en rouge.<br>
+                              - Afficher un message devant ce champ.<br>
+
+
+
+
+                              <style>
+                                  output {
+                                      color: red;
+                                  }
+                              </style>
+                              <script defer src="script.js"></script>
+
+                          <form action="#" name="frmPrix">
+                              <fieldset>
+                                  <legend>Calcul prix ttc</legend>
+                                  <br>
+                                  <label for="pht">Prix Hors Taxe :</label>
+                                  <input id="pht" type="text" name="pht">
+                                  <output id="errPht" name="errPht"></output>
+                                  <br><br>
+                                  <label for="ttva">Taux TVA :</label>
+                                  <input id="ttva" type="text" name="ttva">
+                                  <output id="errTtva" name="errTtva"></output>
+                                  <br><br>
+                                  <button type="button" name="btnCalculer">Calculer</button>
+                                  <button type="button" name="btnAnnuler">Initialiser</button>
+                                  <br><br>
+                                  <label for="pttc">Résultat :</label>
+                                  <input id="pttc" type="text" name="pttc" readonly disabled>
+                                  <br>
+                              </fieldset>
+                          </form>
+                          <script>
+                              // Exrcice 1 : Calcul du prix TTC
+
+                              // Récupérer les objets à partir du formulaire
+                              const frmPrix = document.frmPrix;
+                              const txtPht = frmPrix.pht;
+                              const txtTtva = frmPrix.ttva;
+                              const txtPttc = frmPrix.pttc;
+                              const outErrPht = frmPrix.errPht;
+                              const outErrTtva = frmPrix.errTtva;
+                              const btnCalculer = frmPrix.btnCalculer;
+                              const btnAnnuler = frmPrix.btnAnnuler;
+
+                              function calculerPTTC() {
+                                  //Initialisation
+                                  outErrPht.value = "";
+                                  outErrTtva.value = "";
+
+                                  // Déclaration des variables
+                                  var pht, ttva, pttc;
+                                  // Récupérer le contenu des objets dans des variables
+                                  // avec le contrôle de saisie
+                                  if (txtPht.value == "")
+                                      outErrPht.value = "Champs obligatoire";
+                                  else if (isNaN(txtPht.value))
+                                      outErrPht.value = "Saisissez un nombre";
+                                  else
+                                      pht = parseFloat(txtPht.value);
+
+                                  if (txtTtva.value == "")
+                                      outErrTtva.value = "Champs obligatoire";
+                                  else if (isNaN(txtTtva.value))
+                                      outErrTtva.value = "Saisissez un nombre entre 0 et 100";
+                                  else if (txtTtva.value < 0 || txtTtva.value > 100)
+                                      outErrTtva.value = "TTVA est compris entre 0 et 100!";
+                                  else
+                                      ttva = parseFloat(txtTtva.value);
+
+                                  // Traiter les erreurs
+                                  if (pht == undefined) {
+                                      txtPht.focus();
+                                      txtPht.style.border = "1px solid red";
+                                  }
+                                  else {
+                                      txtPht.style.border = "";
+
+                                      if (ttva == undefined) {
+                                          txtTtva.focus();
+                                          txtTtva.style.border = "1px solid red";
+                                      }
+                                      else {
+                                          txtTtva.style.border = "";
+
+                                          // Calculer le Prix Toute Taxe Comprise - pttc
+                                          pttc = pht * (1 + ttva / 100);
+
+                                          // Afficher le résultat
+                                          txtPttc.value = pttc.toFixed(2);
+
+                                      }
+                                  }
+                              }
+
+                              function effacer() {
+
+                                  // Effacer le contenu des différentes zones
+                                  txtPht.value = "";
+                                  txtTtva.value = "";
+                                  txtPttc.value = "";
+                                  outErrPht.value = "";
+                                  outErrTtva.value = "";
+
+                              }
+
+                              btnCalculer.onclick = calculerPTTC;
+                              btnAnnuler.onclick = effacer;
+
+                          </script>
+
+                          </p>
+                          <!-- Ajoutez le code de l'exercice 1 ici -->
+                      </div>
+                      <div class="col-12 col-md-6 exercise-container border">
+                          <h2>Exercice 2 :</h2>
+                          <p><br>
+                              1. Lorsque l'on change la valeur du bouton radio de l'opération, le texte du bouton
+                              doit
+                              changer comme suit : +: Additionner -: Soustraire *: Multiplier /: Diviser<br>
+                              2. Ecrire le code JavaScript du bouton Initialiser qui permet de vider tous les
+                              champs
+                              et de mettre le curseur dans le champ Valeur 1.<br>
+                              3. Ecrire le code JavaScript du bouton Calculer qui permet de calculer puis
+                              d’afficher
+                              le Résultat selon l’opération choisie.
+                              <style>
+                                  output {
+                                      font-size: larger;
+                                      color: red;
+                                  }
+
+                                  #operation {
+                                      display: inline-block;
+                                      width: 100px;
+                                  }
+                              </style>
+
+                          <form action="#" name="frm">
+                              <fieldset>
+                                  <legend>Calculatrice</legend>
+                                  <br>
+                                  <input id="op1" type="text" placeholder="Valeur 1">
+                                  <output id="errOp1"></output>
+                                  <br><br>
+                                  <label id="operation" for="operation">Addition</label>
+                                  <input id="plus" name="operation" type="radio" checked onclick="addition();"><label
+                                      for="plus"><strong> +
+                                      </strong></label>
+                                  <input id="moins" name="operation" type="radio" onclick="soustration();"><label
+                                      for="moins"><strong> -
+                                      </strong></label>
+                                  <input id="produit" name="operation" type="radio"
+                                      onchange="multiplication();"><label for="produit"><strong>
+                                          * </strong></label>
+                                  <input id="division" name="operation" type="radio" onchange="divis();"><label
+                                      for="division"><strong> /
+                                      </strong></label>
+                                  <br><br>
+                                  <input id="op2" type="text" placeholder="Valeur 2">
+                                  <output id="errOp2"></output>
+                                  <br><br>
+                                  <button type="button" onclick="effectuerOperation();">Calculer</button>
+                                  <button type="button" onclick="vider();">Initialiser</button>
+                                  <br><br>
+                                  <label for="resulatOp">Résultat :</label>
+                                  <input id="resulatOp" type="text" placeholder="Résultat">
+                                  <output id="errResultat"></output>
+                                  <br>
+
+                              </fieldset>
+                          </form>
+                          <script>
+                              // Exrcice 2 : Calculatrice
+
+                              // Récupérer les objets à partir du formulaire
+                              const txtOp1 = document.getElementById("op1");
+                              const txtOp2 = document.getElementById("op2");
+                              const chkPlus = document.getElementById("plus");
+                              const chkMoins = document.getElementById("moins");
+                              const chkProduit = document.getElementById("produit");
+                              const chkDivision = document.getElementById("division");
+                              const lblOperation = document.getElementById("operation");
+                              const txtErrOp1 = document.getElementById("errOp1");
+                              const txtErrOp2 = document.getElementById("errOp2");
+                              const txtResultatOp = document.getElementById("resulatOp");
+                              const txtErrResultat = document.getElementById("errResultat");
+
+                              function addition() {
+                                  lblOperation.innerText = "Addition";
+                              }
+                              function soustration() {
+                                  lblOperation.innerText = "Soustraction";
+                              }
+                              function multiplication() {
+                                  lblOperation.innerText = "Multiplication";
+                              }
+                              function divis() {
+                                  lblOperation.innerText = "Division";
+                              }
+
+                              function effectuerOperation() {
+
+                                  //Initialisation
+                                  txtErrOp1.value = "";
+                                  txtErrOp2.value = "";
+                                  txtErrResultat.value = "";
+
+                                  // Déclaration des variables
+                                  var op1, op2, resultat, erreur = false;
+                                  // Récupérer le contenu des objets dans des variables
+                                  // avec le contrôle de saisie
+                                  if (txtOp1.value == "")
+                                      txtErrOp1.value = "Champs obligatoire";
+                                  else if (isNaN(txtOp1.value))
+                                      txtErrOp1.value = "Saisissez un nombre";
+                                  else
+                                      op1 = parseFloat(txtOp1.value);
+
+                                  if (txtOp2.value == "")
+                                      txtErrOp2.value = "Champs obligatoire";
+                                  else if (isNaN(txtOp2.value))
+                                      txtErrOp2.value = "Saisissez un nombre";
+                                  else
+                                      op2 = parseFloat(txtOp2.value);
+
+                                  // Traiter les erreurs
+                                  if (op1 == undefined) {
+                                      txtOp1.focus();
+                                      txtOp1.style.border = "1px solid red";
+                                  }
+                                  else {
+                                      txtOp1.style.border = "";
+
+                                      if (op2 == undefined) {
+                                          txtOp2.focus();
+                                          txtOp2.style.border = "1px solid red";
+                                      }
+                                      else {
+                                          txtOp2.style.border = "";
+
+                                          // Effectuer l'opération
+                                          if (chkPlus.checked)
+                                              resultat = op1 + op2;
+                                          else if (chkMoins.checked)
+                                              resultat = op1 - op2;
+                                          else if (chkProduit.checked)
+                                              resultat = op1 * op2;
+                                          else {
+                                              if (op2 == 0)
+                                                  erreur = true;
+                                              else resultat = op1 / op2;
+                                          }
+
+                                          // Afficher le résultat
+                                          txtResultatOp.value = '';
+                                          if (!erreur)
+                                              txtResultatOp.value = resultat.toFixed(2);
+                                          else
+                                              txtErrResultat.value = "Division impossible : Division par Zéro!!";
+                                      }
+                                  }
+                              }
+
+                              function vider() {
+                                  // Effacer le contenu des différentes zones
+                                  txtOp1.value = "";
+                                  txtOp2.value = "";
+                                  chkPlus.checked = true;
+                                  lblOperation.value = "Addition";
+                                  txtErrOp1.value = "";
+                                  txtErrOp2.value = "";
+                                  txtErrResultat.value = "";
+                              }
+                          </script>
+
+                      </div>
+                      <div class="col exercise-container border">
+                          <h2>Exercice 3</h2><br>
+                          <p>1. Ecrire le code JavaScript du bouton Effacer qui permet de vider tous les champs et
+                              de
+                              mettre le curseur dans le champ Montant en DH.<br>
+                               2. Ecrire le code JavaScript du
+                              bouton
+                              Calculer qui permet de calculer le Résultat avec 1EURO = 12DH et 1DOLLAR = 8DH,
+                              avant de
+                              faire le calcul on vérifie les éléments suivant (6 points) :<br>
+                              • Le montant en DH doit être remplie.<br>
+                              • Le montant en DH doit contenir des nombres décimaux.<br>
+                              • Pour le champ invalide :<br>
+                              o Positionner le curseur dans ce champ.<br>
+                              o La bordure doit être en rouge.<br>
+                              o Afficher un message devant ce champ.<br>
+                          <form action="#">
+                              <fieldset>
+                                  <legend>Convertisseur de monnaie</legend>
+                                  <br>
+                                  <label for="mdh">Montant en DH :</label>
+                                  <input id="mdh" type="text">
+                                  <output id="errMdh"></output>
+                                  <br><br>
+                                  <label for="convertion">Convertir en :</label>
+                                  <select name="convertion" id="devise">
+                                      <option value="euro" selected>EURO</option>
+                                      <option value="dollar">DOLLAR</option>
+                                  </select>
+                                  <br><br>
+                                  <label for="resultat">Résultat :</label>
+                                  <input id="resultat" type="text" readonly disabled>
+                                  <br><br>
+                                  <button type="button" onclick="conertir();">Calculer</button>
+                                  <button type="button" onclick="initialiser();">Effacer</button>
+                                  <br>
+                              </fieldset>
+                          </form>
+                          <script>
+
+                              // Exrcice 3 : Convertisseur de monnaie
+
+                              // Récupérer les objets à partir du formulaire
+                              const txtMdh = document.querySelector("#mdh");
+                              const txtResultat = document.querySelector("#resultat");
+                              const sltDevise = document.querySelector("#devise");
+                              const outErrMdh = document.querySelector("#errMdh");
+
+                              function conertir() {
+
+                                  //Initialisation
+                                  outErrMdh.value = "";
+
+                                  // Déclaration des variables
+                                  var mdh, resultat;
+
+                                  // Récupérer le contenu des objets dans des variables
+                                  // avec le contrôle de saisie
+                                  if (txtMdh.value == "")
+                                      outErrMdh.value = "Champs obligatoire";
+                                  else if (isNaN(txtMdh.value))
+                                      outErrMdh.value = "Saisissez un nombre";
+                                  else
+                                      mdh = parseFloat(txtMdh.value);
+
+
+                                  // Traiter les erreurs
+                                  if (mdh == undefined) {
+                                      txtMdh.focus();
+                                      txtMdh.style.border = "1px solid red";
+                                  }
+                                  else {
+                                      txtMdh.style.border = ""
+                                      // Effectuer la conversion
+                                      switch (sltDevise.value) {
+                                          case "euro": resultat = mdh / 12; break;
+                                          default: resultat = mdh / 8;
+                                      }
+                                      // Afficher le résultat
+                                      txtResultat.value = resultat.toFixed(2);
+                                  }
+                              }
+
+                              function initialiser() {
+                                  // Effacer le contenu des différentes zones en selectionnant
+                                  // la première option de la liste
+                                  txtMdh.value = "";
+                                  sltDevise.value = "euro";
+                                  txtResultat.value = "";
+                                  outErrMdh.value = "";
+                              }
+                          </script>
+                          </p>
+                      </div>
+
+
+                  </div>
+                  </section>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<script src="/js/popper.min.js"></script>
+<script src="/js/jquery-3.7.1.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+</body>
+</html>
